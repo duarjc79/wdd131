@@ -21,7 +21,7 @@ para.style.backgroundColor = ('#000');
 
 let image = document.querySelector('img');
 
-image.setAttribute('src', '/week2/images/logo.png')
+image.setAttribute('src', './images/logo.png')
 
 let selectElem = document.getElementById('webdevlist');
 selectElem.addEventListener('change', function() {

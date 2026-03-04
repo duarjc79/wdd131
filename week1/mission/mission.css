@@ -1,7 +1,7 @@
 body{
     font-size: 20px;
     font-family: 'Times New Roman', Times, serif;
-    line-height: 1.5;
+    line-height: 1.8;
 }
 header h2{
     color: #0989df;
@@ -22,4 +22,10 @@ img{
 footer{
     text-align: center;
     padding-top: 3em;
+}
+#content {
+    width: 60%;
+    border: 1px solid black;
+    margin: 50px auto;
+    padding: 100px;
 }

@@ -2,7 +2,7 @@
 
 const PI = 3.14;
 let radius = 3;
-area = radius * radius * PI;
+let area = radius * radius * PI;
 
 console.log(area)
 

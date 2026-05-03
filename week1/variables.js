@@ -6,17 +6,18 @@ let area = radius * radius * PI;
 
 console.log(area)
 
-radus = 1256;
+radius = 20;
+area = radius * radius * PI;
 
-console.log(radus)
+console.log(area);
 
 //Type Coersion
 
 const one = 1;
 const two = '2';
-area = one + two;
+area = one * two;
 
-console.log(area)
+console.log(area);
 
 const one1 = 1;
 area = one1 + one1;

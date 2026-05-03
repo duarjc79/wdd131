@@ -15,19 +15,15 @@ console.log(area);
 
 const one = 1;
 const two = '2';
-area = one * two;
 
-console.log(area);
+let result = one * two;
+console.log(result);
 
-const one1 = 1;
-area = one1 + one1;
+result = one + two;
+console.log(result);
 
-console.log(area)
-
-const two2 = 2;
-area = one1 + two2;
-
-console.log(area)
+result = one + Number(two);
+console.log(result);
 
 //Global and Block Scope
 

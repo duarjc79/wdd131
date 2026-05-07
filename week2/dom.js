@@ -31,8 +31,4 @@ selectElem.addEventListener('change', function(){
     let codeValue = selectElem.value;
     console.log(codeValue);
 })
-                
 
-const newPara = document.createElement('p');
-newPara.innerText = 'Added with JavaScript';
-document.body.appendChild(newPara);

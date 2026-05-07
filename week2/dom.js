@@ -20,7 +20,9 @@ let para = document.querySelector('p');
 
 para.classList.add('background');
 
-let image = document.querySelector('img');
+//document.querySelector('body').classList.add('background');
+
+const image = document.querySelector('img');
 
 image.setAttribute('src', 'images/logo.png');
 

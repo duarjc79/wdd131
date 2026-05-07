@@ -4,10 +4,11 @@ console.log(title);
 
 title.textContent = 'Web Page Components';
 
+let topics = document.querySelector('#topics');
 
-document.getElementById('topics').style.color = 'red';
+//topics.style.color = 'red';
 
-let topic_title = document.getElementById('topics');
+document.getElementById('topics').style.color = 'purple';
 
 let list = document.querySelector('.list');
 
@@ -17,7 +18,7 @@ let para = document.querySelector('p');
 
 //para.classList.add('background');
 
-para.style.backgroundColor = ('#000');
+para.style.backgroundColor = ('lightblue');
 
 let image = document.querySelector('img');
 

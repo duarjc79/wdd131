@@ -31,6 +31,5 @@ selectElem.addEventListener('change', function(){
     let codeValue = selectElem.value;
     console.log(codeValue);
     document.getElementById(codeValue).style.color = 'red';
-
 })
 

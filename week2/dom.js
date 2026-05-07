@@ -27,11 +27,11 @@ const image = document.querySelector('img');
 image.setAttribute('src', 'images/logo.png');
 
 let selectElem = document.getElementById('webdevlist');
-selectElem.addEventListener('change', function() {
+selectElem.addEventListener('change', function(){
     let codeValue = selectElem.value;
     console.log(codeValue);
-    document.querySelector('#html').style.color = 'red';
 })
+                
 
 const newPara = document.createElement('p');
 newPara.innerText = 'Added with JavaScript';

@@ -64,7 +64,7 @@ footer {
     display: inline;
   }
   nav {
-    text-align: right;
+    text-align: center;
   }
 }
 @media screen and (min-width: 1000px) {

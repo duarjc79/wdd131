@@ -1,7 +1,9 @@
-const menuButton = document.querySelector('.menu-btn');
+const btn = document.querySelector('.menu-btn');
 const nav = document.querySelector('nav');
 
-menuButton.addEventListener('click', () => {
-    nav.classList.toggle('hide');
-    menuButton.classList.toggle('change');
-});
+btn.addEventListener('click', toggleMenu);
+
+function toggleMenu() {
+    menubar.classList.toggle('hide');
+    btn.classList.toggle('change');
+}

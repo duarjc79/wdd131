@@ -15,7 +15,7 @@ header h1 {
     font-size: 2rem;
     margin-bottom: 1rem;
     padding-bottom: 1rem;
-    border-bottom: 1px solid rgb(190, 165, 28);
+    border-bottom: 1px solid rgb(150, 125, 0);
 }
 .main-nav {
     list-style: none;
@@ -23,7 +23,7 @@ header h1 {
     display: flex;
     justify-content: center;
     gap: 2rem;
-    border-bottom: 1px solid rgb(190, 165, 28);
+    border-bottom: 1px solid rgb(150, 125, 0);
 }
 .main-nav a {
     color: rgb(166, 39, 39);
@@ -49,14 +49,14 @@ main {
 .meta {
     text-align: right;
     font-style: italic;
-    color: rgb(80, 78, 78);
+    color: dimgray;
     margin-bottom: 1rem;
 }
 .meta p {
     line-height: 2;
 }
 .meta span {
-    color: rgb(190, 165, 28);
+    color: rgb(150, 125, 0);
     font-style: normal;
 }
 .book h2 {
@@ -73,12 +73,12 @@ main {
 .desc {
     font-size: 1rem;
     margin: 1rem;
-    color: rgb(80, 78, 78);
+    color: dimgray;
 }
 footer {
     text-align: center;
     padding: 3rem;
-    border-top: 1px solid rgb(190, 165, 28);
+    border-top: 1px solid rgb(150, 125, 0);
     color: dimgray;
 }
 @media screen and (min-width: 600px) {
@@ -95,7 +95,7 @@ footer {
     .meta {
         grid-column: 1;
         grid-row: 1 / 4;
-        border-right: 1px solid rgb(190, 165, 28);
+        border-right: 1px solid rgb(150, 125, 0);
         padding-right: 1rem;
         align-self: start;
     }

@@ -95,7 +95,7 @@ footer {
     .meta {
         grid-column: 1;
         grid-row: 1 / 4;
-        border-right: 1px solid #535113);
+        border-right: 1px solid #535113;
         padding-right: 1rem;
         align-self: start;
     }

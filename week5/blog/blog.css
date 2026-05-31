@@ -41,7 +41,6 @@ main {
     margin: 1rem auto;
 }
 .book {
-    border: 1px solid silver;
     padding: 1rem;
     margin: 1rem;
     background-color: white;
@@ -77,9 +76,11 @@ main {
 }
 footer {
     text-align: center;
-    padding: 3rem;
+    padding: 1rem;
     border-top: 1px solid #535113;
+    border-bottom: 1px solid #535113;
     color: dimgray;
+    margin: 1rem;
 }
 @media screen and (min-width: 600px) {
     .main-nav {

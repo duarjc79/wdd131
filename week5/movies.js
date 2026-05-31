@@ -1,4 +1,3 @@
-
 const movies = [
       {
         title: "Spider-Man: Into the Spider-Verse",
@@ -40,7 +39,7 @@ const movies = [
         genre: "Historical/Religious",
         stars: "⭐⭐⭐⭐"
       }
-    ];
+];
 
     const movieList = document.querySelector('#movie-list');
     movies.forEach(movie => {

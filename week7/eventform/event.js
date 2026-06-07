@@ -68,7 +68,7 @@ output.textContent = "";
   }
 
   if (type === "guest") {
-    if (idValue === "") {
+    if (codeValue === "") {
       
     }
   }

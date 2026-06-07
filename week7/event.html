@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Event Ticket</title>
+  <link rel="icon" href="favicon.ico">
+  <link rel="stylesheet" href="event.css" />
+  <script src="event.js" defer></script>
+</head>
+<body>
+  <main class="wrapper">
+    <h1>Event Registration</h1>
+
+    <form id="ticketForm">
+
+      <div class="field">
+        <label for="firstName">First Name</label>
+        <input id="firstName" name="firstName" type="text" required />
+      </div>
+
+      <div class="field">
+        <label for="lastName">Last Name</label>
+        <input id="lastName" name="lastName" type="text" required />
+      </div>
+
+      <div class="field full">
+        <label for="email">Email</label>
+        <input id="email" name="email" type="email" required />
+      </div>
+
+      <div class="field">
+        <label for="ticketType">Type</label>
+        <select id="ticketType" name="ticketType" required>
+          <option value="">-- Choose One --</option>
+          <option value="student">Student</option>
+          <option value="guest">Guest</option>
+        </select>
+      </div>
+
+      <div class="field">
+        <label for="eventDate">Event Date</label>
+        <input id="eventDate" name="eventDate" type="date" required />
+      </div>
+
+      <div class="field full" id="studentField" hidden>
+        <label for="studentId">Student I#</label>
+        <input id="studentId" name="studentId" type="text" maxlength="9" placeholder="9-digit I number" />
+      </div>
+
+      <div class="field full" id="guestField" hidden>
+        <label for="accessCode">Access Code</label>
+        <input id="accessCode" name="accessCode" type="text" placeholder="Enter event code" />
+      </div>
+
+      <button class="full" type="submit">Create Ticket</button>
+
+    </form>
+
+    <div id="errors"></div>
+    <div id="output"></div>
+
+  </main>
+</body>
+</html>
